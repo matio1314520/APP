@@ -21,29 +21,40 @@ public abstract class BaseAppAdapter<T> extends BaseAdapter {
     public Context mContext;
 
     public BaseAppAdapter(Context context, List list) {
+
         this.mList = list;
+
         this.mContext = context;
+
         mInflater = LayoutInflater.from(context);
     }
 
     @Override
     public int getCount() {
+
         return mList != null ? mList.size() : 0;
+
     }
 
     @Override
     public Object getItem(int position) {
+
         return mList != null ? mList.get(position) : null;
+
     }
 
     @Override
     public long getItemId(int position) {
+
         return position;
+
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         return getItemView(position, convertView, parent);
+
     }
 
     public abstract View getItemView(int position, View convertView, ViewGroup parent);
