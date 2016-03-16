@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="actionbar_background_end">#ffcd2626</color>
+
+    <color name="actionbar_background_item_pressed_end">#ffee7600</color>
+
+    <color name="actionbar_background_item_pressed_start">#ffff7f00</color>
+
+    <color name="actionbar_background_start">#ff8b1a1a</color>
+
+    <color name="actionbar_separator">#ffebc9c9</color>
+
+    <color name="actionbar_title">#ffffffff</color>
+
+    <color name="activity_content_color">#ffdedcdc</color>
+
+    <color name="add_recipelist_background">#ffe1dcd5</color>
+
+    <color name="add_recipelist_banner_background">#fff4f1e9</color>
+
+    <color name="address_background_selected">#fffcedbf</color>
+
+    <color name="auxiliary_text_color_gray">#ffa9a49f</color>
+
+    <color name="auxiliary_text_color_green">#ff97ae76</color>
+
+    <color name="auxiliary_text_color_pink">#ffd47e5c</color>
+
+    <color name="background">#fff0e9e4</color>
+
+    <color name="background_tab_pressed">#1affffff</color>
+
+    <color name="black">#ff000000</color>
+
+    <color name="black383838">#ff383838</color>
+
+    <color name="blue">#ff6092cc</color>
+
+    <color name="blue_press">#ff6092cc</color>
+
+    <color name="brown">#ffffcc66</color>
+
+    <color name="btn_dark_link_bg_color">@color/transparent2</color>
+
+    <color name="btn_dark_link_text_border_color">#ff96968f</color>
+
+    <color name="btn_dark_link_text_color">#ff96968f</color>
+
+    <color name="btn_link_bg_color">@color/transparent2</color>
+
+    <color name="btn_link_text_border_color">#fff96650</color>
+
+    <color name="btn_link_text_color">#fff96650</color>
+
+    <color name="btn_normal_bg_color">#fff96650</color>
+
+    <color name="btn_normal_bg_pressed_color">@color/gray</color>
+
+    <color name="btn_normal_text_color">@color/white</color>
+
+    <color name="buylist_item_checked">#ffb2b2b2</color>
+
+    <color name="buylist_item_unchecked">#ff7f7f7f</color>
+
+    <color name="coffee">#ff40160d</color>
+
+    <color name="collect_background">#ffece9e4</color>
+
+    <color name="collect_background_select">#ffffe9e4</color>
+
+    <color name="create_recipe_hit">#ffc7c7cd</color>
+
+    <color name="darkgray">#ff555555</color>
+
+    <color name="darkred">#ff6d0b02</color>
+
+    <color name="db">#ffcbc6c0</color>
+
+    <color name="default_circle_indicator_fill_color">#ffe04432</color>
+
+    <color name="default_circle_indicator_page_color">#ffe7e4e1</color>
+
+    <color name="default_circle_indicator_stroke_color">#00dddddd</color>
+
+    <color name="default_image_bg">@color/gay_bg</color>
+
+    <color name="dish_main_text_color">#ff383838</color>
+
+    <color name="divider_line">@color/halving_line</color>
+
+    <color name="ec_button_ada69e">#ffada69e</color>
+
+    <color name="edit_recipe_name_red">#ffe04432</color>
+
+    <color name="edit_recipe_save_bg">#ffa49991</color>
+
+    <color name="edit_text_hint_color">#ffb3b3b3</color>
+
+    <color name="empty_recipelist_background">#fffcfcfc</color>
+
+    <color name="f9f6f4">#fff9f6f4</color>
+
+    <color name="feed_review_seller_reply_label_text_color">#ffffc800</color>
+
+    <color name="gay_bg">#ffebebe2</color>
+
+    <color name="goods_review_append_content_text_color">#ff95958f</color>
+
+    <color name="gray">#ff999999</color>
+
+    <color name="gray333">#ff333333</color>
+
+    <color name="gray444">#ff444444</color>
+
+    <color name="gray666">#ff666666</color>
+
+    <color name="gray777">#ff777777</color>
+
+    <color name="grayAAA">#ffaaaaaa</color>
+
+    <color name="grayE3DDD6">#ffe3ddd6</color>
+
+    <color name="gray_btn">#ffbec0be</color>
+
+    <color name="gray_e0dede">#ffe0dede</color>
+
+    <color name="gray_text_color">#ff838182</color>
+
+    <color name="gray_text_color2">#ffb2b2b2</color>
+
+    <color name="graya3a3a3">#ffa3a3a3</color>
+
+    <color name="grayada7a5">#ffada7a5</color>
+
+    <color name="grayc5bab0">#ffc5bab0</color>
+
+    <color name="graye9e2da">#ffd8d4ce</color>
+
+    <color name="grayf0f0f0">#fff0f0f0</color>
+
+    <color name="halving_line">#ffeaeae0</color>
+
+    <color name="lb">#fffbfafa</color>
+
+    <color name="li">#fff1f1ef</color>
+
+    <color name="lightgray">#ffcccccc</color>
+
+    <color name="list_view_divider_color">#ffeaeae0</color>
+
+    <color name="login_bg">#fff1eeec</color>
+
+    <color name="main_home_left_btn_tab_bg">#fffb9856</color>
+
+    <color name="main_left_text_color">#ff848283</color>
+
+    <color name="main_right_home_normal_bg">#ffe6e4e4</color>
+
+    <color name="main_setting_content_text">#ff444444</color>
+
+    <color name="main_setting_content_text2">#ff999999</color>
+
+    <color name="main_text_color">#ff525252</color>
+
+    <color name="max_text_size_text_color">#ff383831</color>
+
+    <color name="meal_title_line">@color/black</color>
+
+    <color name="memo_color">#fff1f1ef</color>
+
+    <color name="min_text_size_text_color">#ff95958f</color>
+
+    <color name="navigation_bar_background">@color/white</color>
+
+    <color name="navigation_bar_selected_bg">#ffeeedea</color>
+
+    <color name="new_back_color">#fff7f7f0</color>
+
+    <color name="notification_group_un_read_bg_color">#ffeeedd0</color>
+
+    <color name="order_button_border_color_gray">@color/gray</color>
+
+    <color name="order_button_border_color_red">#fff96650</color>
+
+    <color name="order_button_border_color_yellow">#ffff9900</color>
+
+    <color name="order_button_text_color_gray">@color/gray</color>
+
+    <color name="order_button_text_color_red">#fff96650</color>
+
+    <color name="order_button_text_color_yellow">#ffff9900</color>
+
+    <color name="profile_bottom_layout_bg">#ffeaebdf</color>
+
+    <color name="profile_bottom_text_normal">#ff434343</color>
+
+    <color name="profile_bottom_text_pressed">#ffee4422</color>
+
+    <color name="profile_desc_background">#fff9f7f5</color>
+
+    <color name="profile_desc_click">#fff9f9f9</color>
+
+    <color name="profile_recipe_backgroud">#ffedf5f7</color>
+
+    <color name="recipe_title_color">#ff756a64</color>
+
+    <color name="red">#fff96650</color>
+
+    <color name="redAA2105">#ffaa2105</color>
+
+    <color name="red_press">#ff842423</color>
+
+    <color name="sb">#fff1f1ef</color>
+
+    <color name="search_back_selector_color">#ffdcdcdc</color>
+
+    <color name="search_box_back">#fff7f7f4</color>
+
+    <color name="search_suggest_text_color_black">#ff605e5f</color>
+
+    <color name="search_suggest_text_color_gray">#ffd6d4d3</color>
+
+    <color name="self_followed_normal_color">#ff49ae7b</color>
+
+    <color name="self_followed_pressed_color">#ff29955b</color>
+
+    <color name="sns_center_message_btn_bg">#ff6dc4e5</color>
+
+    <color name="start_page_background_color">#fffbfbf7</color>
+
+    <color name="tab">#ffa39b91</color>
+
+    <color name="tab_unread_round_color">#ff6dc4e5</color>
+
+    <color name="text_color_black">@color/max_text_size_text_color</color>
+
+    <color name="text_color_gray">#ff7f7771</color>
+
+    <color name="text_link_color">#fff96650</color>
+
+    <color name="title_color">#ff505044</color>
+
+    <color name="topic_list_item_bg_color">@color/white</color>
+
+    <color name="topic_list_item_primary_color">#ff54544c</color>
+
+    <color name="topic_list_item_secondary_color">#ffadada9</color>
+
+    <color name="transparency_10_black">#19000000</color>
+
+    <color name="transparency_20_black">#32000000</color>
+
+    <color name="transparent">#d0f1f1ef</color>
+
+    <color name="transparent2">#00000000</color>
+
+    <color name="transparent3">#60000000</color>
+
+    <color name="transparent4">#ffdad7d7</color>
+
+    <color name="transparent_background">#99000000</color>
+
+    <color name="url_link">#ff992222</color>
+
+    <color name="white">#ffffffff</color>
+
+    <color name="white_90_transparent">#99ffffff</color>
+
+    <color name="yellow">#ffea5520</color>
+
+    <color name="yellow_text_bg">#fff2cb30</color>
+</resources>

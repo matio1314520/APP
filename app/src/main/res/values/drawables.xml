@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="activity_content_color">#fff0e9e4</item>
+    <item type="drawable" name="auxiliary_text_color_gray">#ffa9a49f</item>
+    <item type="drawable" name="auxiliary_text_color_green">#ff97ae76</item>
+    <item type="drawable" name="auxiliary_text_color_pink">#ffd47e5c</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="darkred">#ff6d0b02</item>
+    <item type="drawable" name="db">#ffcbc6c0</item>
+    <item type="drawable" name="gray">#ff999999</item>
+    <item type="drawable" name="gray9b938e">#ff9b938e</item>
+    <item type="drawable" name="grayAAA">#ffaaaaaa</item>
+    <item type="drawable" name="li">#fff1f1ef</item>
+    <item type="drawable" name="lightgray">#ffcccccc</item>
+    <item type="drawable" name="main_tab_selected">#ff464040</item>
+    <item type="drawable" name="main_text_color">#ff3a272d</item>
+    <item type="drawable" name="red">#ffaa2105</item>
+    <item type="drawable" name="tabgray">#ff505050</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="yellow">#ffea5520</item>
+    <item type="drawable" name="yellow_review">#ffffcc00</item>
+</resources>

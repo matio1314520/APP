@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.matio.frameworkmodel"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    //noinspection GradleCompatible
+    compile 'com.android.support:design:24.0.0-alpha1'
+    compile 'org.xutils:xutils:3.+'
+    //noinspection GradleCompatible
+    compile 'com.android.support:cardview-v7:24.0.0-alpha1'
+    compile 'com.alibaba:fastjson:1.2.8'
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    //noinspection GradleCompatible
+    compile 'com.android.support:recyclerview-v7:24.0.0-alpha1'
+    compile 'in.srain.cube:grid-view-with-header-footer:1.0.12'
+    compile project(':Pulltorefreshlib')
+    compile project(':Swipylib')
+    compile 'com.jakewharton:disklrucache:2.0.2'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile files('libs/alipaySdk-20160120.jar')
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.+'
+    compile 'com.squareup.picasso:picasso:2.+'
+}

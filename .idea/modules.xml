@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FrameworkModel.iml" filepath="$PROJECT_DIR$/FrameworkModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pulltorefreshlib/Pulltorefreshlib.iml" filepath="$PROJECT_DIR$/Pulltorefreshlib/Pulltorefreshlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swipylib/Swipylib.iml" filepath="$PROJECT_DIR$/Swipylib/Swipylib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

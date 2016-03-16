@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="appirator_days_before_reminding">3</integer>
+    <integer name="appirator_days_until_prompt">2</integer>
+    <integer name="appirator_events_until_prompt">15</integer>
+    <integer name="appirator_launches_until_prompt">5</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="google_play_services_version">4242000</integer>
+    <integer name="num_cols">1</integer>
+</resources>

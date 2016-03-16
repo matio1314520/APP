@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radiogroup_activity_main"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/MainRadioutton"
+            android:drawableTop="@drawable/home_radiobutton_activity_main"
+            android:text="@string/home_activity_main" />
+
+        <RadioButton
+            style="@style/MainRadioutton"
+            android:drawableTop="@drawable/second_radiobutton_activity_main"
+            android:text="二" />
+
+        <RadioButton
+            style="@style/MainRadioutton"
+            android:drawableTop="@drawable/third_radiobutton_activity_main"
+            android:text="三" />
+
+        <RadioButton
+            style="@style/MainRadioutton"
+            android:drawableTop="@drawable/me_radiobutton_activity_main"
+            android:text="我的" />
+
+    </RadioGroup>
+
+</RelativeLayout>

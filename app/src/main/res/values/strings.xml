@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FrameworkModel</string>
+
+    <!--Main Activity-->
+    <string name="home_activity_main">首页</string>
+    <string name="second_activity_main">二</string>
+    <string name="third_activity_main">三</string>
+    <string name="me_activity_main">我的</string>
+
+</resources>
