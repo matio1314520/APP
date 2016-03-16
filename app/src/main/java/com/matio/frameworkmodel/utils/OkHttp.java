@@ -64,6 +64,17 @@ public class OkHttp<T> {
     }
 
 
+    static {
+
+        if (mOkHttpClient == null) {
+
+            mOkHttpClient = new OkHttpClient();
+        }
+    }
+
+    /**
+     * 请求网络数据
+     */
     public void onHttp() {
 
         mOkHttpClient.newCall(setRequest()).enqueue(new okhttp3.Callback() {
@@ -86,15 +97,16 @@ public class OkHttp<T> {
                             mCallback.onSuccess(t);
                         }
                     });
-
-
                 }
-
             }
         });
-
     }
 
+    /**
+     * 设置request
+     *
+     * @return
+     */
     private Request setRequest() {
 
         Request request = null;
@@ -126,15 +138,26 @@ public class OkHttp<T> {
         return request;
     }
 
+
+    /**
+     * 设置requestbody
+     *
+     * @return
+     */
     private RequestBody setBody() {
 
         MediaType mediaType = MediaType.parse("application/json;charset=utf-8");
 
-        RequestBody body = RequestBody.create(mediaType, formatParameter(mParameter));
-        return null;
+        return RequestBody.create(mediaType, formatParameter(mParameter));
     }
 
 
+    /**
+     * 将post请求参数格式化为json字符串
+     *
+     * @param parameterMap post请求参数存放的map集合
+     * @return
+     */
     private String formatParameter(Map<String, String> parameterMap) {
         try {
 
@@ -156,23 +179,15 @@ public class OkHttp<T> {
         }
 
         return null;
-
     }
 
-
-    static {
-
-        if (mOkHttpClient == null) {
-
-            mOkHttpClient = new OkHttpClient();
-        }
-    }
-
-
+    /**
+     * 用于回调的接口
+     *
+     * @param <T>
+     */
     public interface Callback<T> {
 
         void onSuccess(T t);
     }
-
-
 }
